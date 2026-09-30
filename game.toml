@@ -5,6 +5,8 @@ id = "SLES-00043"
 players = 1
 exe = "disc/SLES_000.43"
 disc = "disc/Super Pang Collection (Europe).cue"
+discs = ["disc/Super Pang Collection (Europe).cue"]
+disc_serials = ["SLES-00043"]
 load_address = "0x80010000"
 entry_pc = "0x80014E70"
 text_size = "0x0002E000"
@@ -12,17 +14,20 @@ stack_base = "0x801FFFF0"
 
 [prepare_disc]
 out_dir = "disc"
-bin_name = "Super Pang Collection (Europe).bin"
+bin_name = "Super Pang Collection (Europe) (Track 01).bin"
 cue_name = "Super Pang Collection (Europe).cue"
 boot_exe = "SLES_000.43"
-known_sizes = [516847296]
+known_sizes = [15960672, 516847296]
 known_md5 = [
+  "f7e7e7db671c5d26edc37716464d4400",
   "51b3d7731a912dabe1b74f60085df50a",
 ]
 known_sha1 = [
+  "29085ca529b2b503cb9867e646a1b112b4fb3e95",
   "a48d8ae5310bc8c8ba9e449b9bf76d697cb18316",
 ]
 known_crc32 = [
+  "e63e1c6a",
   "d777546c",
 ]
 

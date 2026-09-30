@@ -3,6 +3,10 @@
 Private source preparation; no build or gameplay qualification.
 Status, setup instructions and evidence: [T91](https://app.notion.com/p/3de1cf959a4c81d1bb38e5342763307e).
 
+<!-- release-standard:bios -->
+**BIOS:** SCPH-5552 (Europe) retail BIOS, 524288 bytes, SHA-256 `1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09`. Supply your own dump; releases do not use OpenBIOS.
+<!-- /release-standard:bios -->
+
 ## About this project
 
 These ports are developed by a hobbyist (a DevSecOps engineer, not a game
