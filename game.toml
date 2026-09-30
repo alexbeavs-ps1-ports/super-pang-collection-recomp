@@ -1,0 +1,55 @@
+
+[game]
+name = "Super Pang Collection"
+id = "SLES-00043"
+players = 1
+exe = "disc/SLES_000.43"
+disc = "disc/Super Pang Collection (Europe).cue"
+load_address = "0x80010000"
+entry_pc = "0x80014E70"
+text_size = "0x0002E000"
+stack_base = "0x801FFFF0"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Super Pang Collection (Europe).bin"
+cue_name = "Super Pang Collection (Europe).cue"
+boot_exe = "SLES_000.43"
+known_sizes = [516847296]
+known_md5 = [
+  "51b3d7731a912dabe1b74f60085df50a",
+]
+known_sha1 = [
+  "a48d8ae5310bc8c8ba9e449b9bf76d697cb18316",
+]
+known_crc32 = [
+  "d777546c",
+]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+openbios = false
+bios_hle = false
+window_title = "Super Pang Collection Recompiled"
+memcard_dir = "saves"
+overlay_cache = true
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 61
+required_disc_fp = "270f23e6895f3e1e9060c0cd80a72f4425e874cc0e9e0f4051c7226eaebf917f"
+
+[pgo]
+enabled = false

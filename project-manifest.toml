@@ -1,0 +1,27 @@
+[project]
+title = "Super Pang Collection"
+region = "Europe"
+track = "recompilation"
+status = "source_prepared_unqualified"
+
+[retail_identity]
+disc_count = 1
+serials = ["SLES-00043"]
+executable_paths = ["SLES_000.43"]
+executable_sha256 = "a246dc78c8829ca61c583ee021703393938f8cc2a132bd67378c8bbd7589895b"
+load_address = "0x80010000"
+entry_point = "0x80014E70"
+
+[bios]
+profile = "SCPH5552"
+sha256 = "1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09"
+
+[framework]
+name = "psxrecomp"
+qualification = "pending T168 and shared canaries"
+template_commit = "77fc84d18cd341ba0c0feb68a63f0904f8c467f0"
+
+[release]
+target_version = "v0.4.0"
+private_only = true
+profile_status = "CI training pending"

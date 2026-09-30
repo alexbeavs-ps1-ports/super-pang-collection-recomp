@@ -1,0 +1,29 @@
+{
+  "cue_path": "disc/Super Pang Collection (Europe).cue",
+  "cue_name": "Super Pang Collection (Europe).cue",
+  "bin_name": "Super Pang Collection (Europe).bin",
+  "track_count": 61,
+  "data_track_size": 516847296,
+  "data_track_md5": "51b3d7731a912dabe1b74f60085df50a",
+  "data_track_sha1": "a48d8ae5310bc8c8ba9e449b9bf76d697cb18316",
+  "data_track_crc32": "d777546c",
+  "boot_exe": "SLES_000.43",
+  "serial": "SLES-00043",
+  "serial_exe": "SLES_000.43",
+  "volume_id": "SUPER_PANG_COLLECTION",
+  "display_name": "Super Pang Collection",
+  "load_address": "0x80010000",
+  "entry_pc": "0x80014E70",
+  "text_size": "0x0002E000",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "270f23e6895f3e1e9060c0cd80a72f4425e874cc0e9e0f4051c7226eaebf917f",
+  "boot_exe_sha256": "a246dc78c8829ca61c583ee021703393938f8cc2a132bd67378c8bbd7589895b",
+  "seed_count": 347,
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}

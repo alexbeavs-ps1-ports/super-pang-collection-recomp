@@ -1,0 +1,18 @@
+{
+  "disc_count": 1,
+  "verdict": "single",
+  "differing_program_fields": [],
+  "warnings": [],
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Super Pang Collection (Europe).cue",
+      "cue_path": "disc/Super Pang Collection (Europe).cue",
+      "serial": "SLES-00043",
+      "boot_exe": "SLES_000.43",
+      "entry_pc": "0x80014E70",
+      "track_count": 61,
+      "required_disc_fp": "270f23e6895f3e1e9060c0cd80a72f4425e874cc0e9e0f4051c7226eaebf917f"
+    }
+  ]
+}
