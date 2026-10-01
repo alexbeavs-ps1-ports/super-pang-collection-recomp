@@ -2,7 +2,7 @@
 [game]
 name = "Super Pang Collection"
 id = "SLES-00043"
-players = 1
+players = 2
 exe = "disc/SLES_000.43"
 disc = "disc/Super Pang Collection (Europe).cue"
 discs = ["disc/Super Pang Collection (Europe).cue"]
