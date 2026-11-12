@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Super Pang Collection",
+    "id": "SLES-00043",
+    "boot_exe": "SLES_000.43"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "Europe",
+    "players": 2
+  },
+  "rom_identity": {
+    "cue_name": "Super Pang Collection (Europe).cue",
+    "bin_name": "Super Pang Collection (Europe).bin",
+    "track_counts": [
+      61
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 516847296,
+      "md5": "51b3d7731a912dabe1b74f60085df50a",
+      "sha1": "a48d8ae5310bc8c8ba9e449b9bf76d697cb18316",
+      "crc32": "d777546c"
+    },
+    "disc_fp": "270f23e6895f3e1e9060c0cd80a72f4425e874cc0e9e0f4051c7226eaebf917f"
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x80014E70",
+    "text_size": "0x0002E000",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 347,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
